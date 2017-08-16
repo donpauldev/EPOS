@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		430BC5F21C04264E00345D17 /* libepos2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 430BC5EE1C04264E00345D17 /* libepos2.a */; };
+		432F61371BF18FC00003B0D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F61361BF18FC00003B0D6 /* AppDelegate.swift */; };
+		432F61391BF18FC00003B0D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F61381BF18FC00003B0D6 /* ViewController.swift */; };
+		432F613C1BF18FC00003B0D6 /* Printer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432F613A1BF18FC00003B0D6 /* Printer.storyboard */; };
+		432F613E1BF18FC00003B0D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432F613D1BF18FC00003B0D6 /* Assets.xcassets */; };
+		432F61411BF18FC00003B0D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432F613F1BF18FC00003B0D6 /* LaunchScreen.storyboard */; };
+		4381C1091C05773C0018A1E9 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4381C1081C05773C0018A1E9 /* ExternalAccessory.framework */; };
+		4381C10B1C05775C0018A1E9 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4381C10A1C05775C0018A1E9 /* libxml2.2.tbd */; };
+		43899CC41C0699F400E1977E /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43899CC31C0699F400E1977E /* DiscoveryViewController.swift */; };
+		4396F81A1C07EEF3004888B2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4396F81C1C07EEF3004888B2 /* Localizable.strings */; };
+		4396F81E1C07F27A004888B2 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4396F81D1C07F27A004888B2 /* MessageView.swift */; };
+		43EC04131BF420B500806EB8 /* CustomPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EC04121BF420B500806EB8 /* CustomPickerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		430BC5ED1C04264E00345D17 /* ePOS2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ePOS2.h; path = ../../libs/ePOS2.h; sourceTree = "<group>"; };
+		430BC5EE1C04264E00345D17 /* libepos2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libepos2.a; path = ../libs/libepos2.a; sourceTree = "<group>"; };
+		432F61331BF18FC00003B0D6 /* ePOS2_Printer_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ePOS2_Printer_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		432F61361BF18FC00003B0D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		432F61381BF18FC00003B0D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		432F613B1BF18FC00003B0D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Printer.storyboard; sourceTree = "<group>"; };
+		432F613D1BF18FC00003B0D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		432F61401BF18FC00003B0D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		432F61421BF18FC00003B0D6 /* ePOS2_Printer_Swift-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ePOS2_Printer_Swift-Info.plist"; sourceTree = "<group>"; };
+		4381C1071C054C660018A1E9 /* ePOS2_PrinterS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ePOS2_PrinterS-Bridging-Header.h"; sourceTree = "<group>"; };
+		4381C1081C05773C0018A1E9 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		4381C10A1C05775C0018A1E9 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		43899CC31C0699F400E1977E /* DiscoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
+		4396F81B1C07EEF3004888B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4396F81D1C07F27A004888B2 /* MessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		43EC04121BF420B500806EB8 /* CustomPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		432F61301BF18FC00003B0D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4381C1091C05773C0018A1E9 /* ExternalAccessory.framework in Frameworks */,
+				4381C10B1C05775C0018A1E9 /* libxml2.2.tbd in Frameworks */,
+				430BC5F21C04264E00345D17 /* libepos2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		432F612A1BF18FC00003B0D6 = {
+			isa = PBXGroup;
+			children = (
+				432F61351BF18FC00003B0D6 /* ePOS2_Printer_Swift */,
+				43899CC71C06F04500E1977E /* Frameworks */,
+				432F61341BF18FC00003B0D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		432F61341BF18FC00003B0D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				432F61331BF18FC00003B0D6 /* ePOS2_Printer_Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		432F61351BF18FC00003B0D6 /* ePOS2_Printer_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				430BC5ED1C04264E00345D17 /* ePOS2.h */,
+				432F61361BF18FC00003B0D6 /* AppDelegate.swift */,
+				432F61381BF18FC00003B0D6 /* ViewController.swift */,
+				43899CC31C0699F400E1977E /* DiscoveryViewController.swift */,
+				43EC04121BF420B500806EB8 /* CustomPickerView.swift */,
+				4396F81D1C07F27A004888B2 /* MessageView.swift */,
+				432F613A1BF18FC00003B0D6 /* Printer.storyboard */,
+				432F613D1BF18FC00003B0D6 /* Assets.xcassets */,
+				432F613F1BF18FC00003B0D6 /* LaunchScreen.storyboard */,
+				432F61421BF18FC00003B0D6 /* ePOS2_Printer_Swift-Info.plist */,
+				4381C1071C054C660018A1E9 /* ePOS2_PrinterS-Bridging-Header.h */,
+				4396F81C1C07EEF3004888B2 /* Localizable.strings */,
+			);
+			path = ePOS2_Printer_Swift;
+			sourceTree = "<group>";
+		};
+		43899CC71C06F04500E1977E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				430BC5EE1C04264E00345D17 /* libepos2.a */,
+				4381C10A1C05775C0018A1E9 /* libxml2.2.tbd */,
+				4381C1081C05773C0018A1E9 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		432F61321BF18FC00003B0D6 /* ePOS2_Printer_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432F61451BF18FC00003B0D6 /* Build configuration list for PBXNativeTarget "ePOS2_Printer_Swift" */;
+			buildPhases = (
+				432F612F1BF18FC00003B0D6 /* Sources */,
+				432F61301BF18FC00003B0D6 /* Frameworks */,
+				432F61311BF18FC00003B0D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ePOS2_Printer_Swift;
+			productName = ePOS2_PrinterS;
+			productReference = 432F61331BF18FC00003B0D6 /* ePOS2_Printer_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		432F612B1BF18FC00003B0D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = BS;
+				TargetAttributes = {
+					432F61321BF18FC00003B0D6 = {
+						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = 432F612E1BF18FC00003B0D6 /* Build configuration list for PBXProject "ePOS2_Printer_Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 432F612A1BF18FC00003B0D6;
+			productRefGroup = 432F61341BF18FC00003B0D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				432F61321BF18FC00003B0D6 /* ePOS2_Printer_Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		432F61311BF18FC00003B0D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432F61411BF18FC00003B0D6 /* LaunchScreen.storyboard in Resources */,
+				432F613E1BF18FC00003B0D6 /* Assets.xcassets in Resources */,
+				4396F81A1C07EEF3004888B2 /* Localizable.strings in Resources */,
+				432F613C1BF18FC00003B0D6 /* Printer.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		432F612F1BF18FC00003B0D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43EC04131BF420B500806EB8 /* CustomPickerView.swift in Sources */,
+				43899CC41C0699F400E1977E /* DiscoveryViewController.swift in Sources */,
+				432F61391BF18FC00003B0D6 /* ViewController.swift in Sources */,
+				432F61371BF18FC00003B0D6 /* AppDelegate.swift in Sources */,
+				4396F81E1C07F27A004888B2 /* MessageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		432F613A1BF18FC00003B0D6 /* Printer.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				432F613B1BF18FC00003B0D6 /* Base */,
+			);
+			name = Printer.storyboard;
+			sourceTree = "<group>";
+		};
+		432F613F1BF18FC00003B0D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				432F61401BF18FC00003B0D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4396F81C1C07EEF3004888B2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4396F81B1C07EEF3004888B2 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		432F61431BF18FC00003B0D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "ePOS2_Printer_Swift/ePOS2_PrinterS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		432F61441BF18FC00003B0D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "ePOS2_Printer_Swift/ePOS2_PrinterS-Bridging-Header.h";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		432F61461BF18FC00003B0D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ePOS2_Printer_Swift/ePOS2_Printer_Swift-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../libs,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.ePOS2-PrinterS";
+				PRODUCT_NAME = ePOS2_Printer_Swift;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		432F61471BF18FC00003B0D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ePOS2_Printer_Swift/ePOS2_Printer_Swift-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../libs,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.ePOS2-PrinterS";
+				PRODUCT_NAME = ePOS2_Printer_Swift;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		432F612E1BF18FC00003B0D6 /* Build configuration list for PBXProject "ePOS2_Printer_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432F61431BF18FC00003B0D6 /* Debug */,
+				432F61441BF18FC00003B0D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		432F61451BF18FC00003B0D6 /* Build configuration list for PBXNativeTarget "ePOS2_Printer_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432F61461BF18FC00003B0D6 /* Debug */,
+				432F61471BF18FC00003B0D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 432F612B1BF18FC00003B0D6 /* Project object */;
+}
