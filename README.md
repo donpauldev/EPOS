@@ -1,1 +1,1 @@
-# EPOS
+# EPSON EPOS
